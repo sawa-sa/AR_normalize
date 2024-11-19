@@ -126,7 +126,7 @@
         scatterGroup.position.set(0, 0, 0); // 底面の重心をマーカーの中心に
 
         normalizedData.forEach(point => {
-          const geometry = new THREE.SphereGeometry(0.03, 16, 16); // 球のサイズを調整
+          const geometry = new THREE.SphereGeometry(0.02, 16, 16); // 球のサイズを調整
           const material = new THREE.MeshBasicMaterial({ 
             color: 0x0000ff,   // 球の色を青にする
             opacity: 0.5,
